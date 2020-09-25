@@ -1,0 +1,11 @@
+html, body, form, label, button, div, header, h2, nav, li, article, section, aside, footer, p, h1, select, option{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+hr{
+    margin:0;
+    padding: 0;
+  }

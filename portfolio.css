@@ -1,0 +1,139 @@
+/* Creating the flexbox */
+.container, .container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+}
+.column1, .column3{
+  flex: 1;
+  background-color: #ffcce655;
+  padding: 1em;
+}
+.column2 {
+  flex: 2;
+  padding: 1em;
+}
+/* **************** */
+
+
+/* Creating the boxes in the left and right columns */
+#Form, .box, .boxskills{
+  border: 1pt solid #b3005955;
+  border-radius: 2%;
+}
+h2, legend{
+  background-color: #b3005955;
+  border-radius: 2%;
+  padding: .5em;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.box p, .box1 p{
+  padding-left: 1em;
+}
+.box, .box1{
+  border: 1pt solid #b3005955;
+  border-radius: 2%;
+}
+.box1{
+  margin-top: 1em;
+  text-align: center;
+}
+.boxskills{
+  margin-top: 1em;
+}
+/* **************** */
+
+
+/* Formatting the images */
+img{
+  float: right;
+}
+figcaption{
+  text-align: center;
+  float: right;
+  padding-right: 1em;
+}
+figure{
+  float: right;
+}
+/* **************** */
+
+
+/* Styling for the header and footer */
+footer{
+  padding: .75em;
+  background-color: #b3005955;
+  text-align: center;
+}
+header{
+  background-color: #b3005955;
+  padding: .75em;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+/* **************** */
+
+
+/* Styling the blog posts */
+#title{
+  font-weight: bold;
+  background-color: #b3005955;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: .1em;
+  padding-bottom: .1em;
+}
+#dateTime{
+  text-align: right;
+  font-size: .6em;
+}
+#post{
+  background-color: #ffcce655;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: .5em;
+}
+/* **************** */
+
+
+/* Styling for the forms and buttons */
+form{
+  text-align: center;
+}
+#logoutButton, #postButton{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#submit, #logoutButton, #clear, #postButton, #preview{
+  background-color: #ff66b355;
+  border-radius: 10%;
+  font-weight: bold;
+}
+input{
+  margin: 2%;
+}
+/* **************** */
+
+
+/* Coloring the links */
+a:link {
+  color: #660066;
+}
+a:visited {
+  color: #cc00cc;
+}
+/* **************** */
+
+
+/* Changing the font */
+body{
+  font-family: arial;
+}
+/* **************** */

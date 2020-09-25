@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blog Home</title>
+  <link rel="stylesheet" href="reset.css" type="text/css"/>
+  <link rel="stylesheet" href="portfolio.css" type="text/css"/>
+</head>
+<body>
+  <header>
+    <h1>Wendy's Blog</h1>
+  </header>
+  <div class="container">
+
+    <div class="column1">
+      <aside id="left">
+        <div class="box">
+          <h2>Navigation Links</h2>
+          <nav>
+            <ul>
+              <li><a href="index.php#AboutMe">About Me</a></li>
+              <li><a href="index.php#EducationAndQualifications">Education</a></li>
+              <li><a href="index.php#Experience">Experience</a></li>
+              <li><a href="index.php#Portfolio">Portfolio</a></li>
+              <li><a href="viewBlog.php">View Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+    <div class="column2">
+      <form method="POST" action="addPost.php">
+        <fieldset>
+          <legend>Blog Post</legend>
+          <textarea id="titlebox" name="title" rows="1" cols="80" placeholder="Title"></textarea><br>
+          <textarea  id="messagebox" name="message" rows="8" cols="80" placeholder="Enter your text here"></textarea><br>
+          <input type="submit" id="submit" value="Submit">
+          <input type="reset" id="clear" value="Clear">
+          <input type="button" id="preview" value="Preview">
+        </fieldset>
+      </form>
+      <br><br>
+      <div id="previewBox">
+      </div>
+    </div>
+    <div class="column3">
+      <div class="box1">
+        <h2>Welcome</h2>
+        <form action="logout.php" method="post">
+          <input type="submit" id="logoutButton" value="Log Out">
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <p>Made by: Wendy Walls</p>
+    <p>Contact information: <a href="mailto:ec18320@qmul.ac.uk">ec18320@qmul.ac.uk</a></p>
+  </footer>
+  <script src="validation.js"></script>
+</body>
+</html>
